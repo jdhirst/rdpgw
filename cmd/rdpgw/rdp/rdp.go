@@ -75,7 +75,7 @@ type RdpSettings struct {
 	SingleMonInWindowedMode               bool   `rdp:"singlemoninwindowedmode" default:"0"`
 	ScreenModeId                          int    `rdp:"screen mode id" default:"2"`
 	SmartSizing                           bool   `rdp:"smart sizing" default:"false"`
-	DynamicResolution                     bool   `rdp:"dynamic resolution" default:"true"`
+	DynamicResolution                     bool   `rdp:"dynamic resolution" default:"false"`
 	DesktopSizeId                         int    `rdp:"desktop size id"`
 	DesktopHeight                         int    `rdp:"desktopheight"`
 	DesktopWidth                          int    `rdp:"desktopwidth"`
